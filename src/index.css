@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  background-color: #1c1c1c;
+}
+
+.App {
+  background-color: orange;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.searchForm {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.searchForm label {
+  display: none;
+}
+
+.searchForm input {
+  padding: 1em;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.searchForm input:focus,
+.searchForm input:active {
+  outline: none;
+  background-color: #fff;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  color: black;
+  border-radius: 0 20px 20px 0;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+.btn:active,
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+.search_icon {
+  font-weight: bold;
+}
+
+.movies {
+  display: grid;
+  margin-top: 2em;
+  gap: 2em;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1em;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
